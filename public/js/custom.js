@@ -1,6 +1,5 @@
 /* MAIN MENU */
 var ww = document.body.clientWidth;
-
 jQuery(document).ready(function() {
   "use strict";
 	jQuery('body').find("#mainmenu li a").each(function() {
@@ -15,6 +14,10 @@ jQuery(document).ready(function() {
 		jQuery('body').find("#mainmenu").toggle();
 	});
     adjustMenu();
+});
+jQuery(window).load(function() {
+    "use strict";
+    jQuery('body').backstretch("../img/photos/bg-blurred.jpg");
 });
   
 jQuery(window).load(function () {
@@ -49,8 +52,7 @@ var adjustMenu = function() {
 			e.preventDefault();
 			jQuery(this).parent("li").toggleClass("hover");
 		});
-	} 
-	else if (ww >= 900) {
+	} else if (ww >= 900) {
 		jQuery('body').find(".toggleMenu").css("display", "none");
 		jQuery('body').find("#mainmenu").show();
 		jQuery('body').find("#mainmenu li").removeClass("hover");
@@ -95,8 +97,25 @@ jQuery(document).ready(function() {
     });
 });
 
+jQuery(document).ready(function() {
+    jQuery("#tabs-1").easyResponsiveTabs({ type: "default", width: "auto", fit: true });
+});
+jQuery(document).ready(function() {
+    jQuery("#filters1").dysaniagrid({
+        galleryid: "#gridbox1"
+    });
+});
+jQuery(document).ready(function() {
+    jQuery('#verticalTab').easyResponsiveTabs({
+        type: 'vertical',
+        width: 'auto',
+        fit: true
+    });
+});
+
+
 /////////////////* Info Boxes */////////////////////////
 
-jQuery('body').find('.message-close').on("click", function () { 
+jQuery('body').find('.message-close').on("click", function () {
    jQuery(this).parent().fadeOut();
 });
