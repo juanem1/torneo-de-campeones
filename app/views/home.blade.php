@@ -86,7 +86,7 @@
 					</figcaption>
 				</figure>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacinia ipsum quis diam aliquam vel mollis nisi tempus. Nam et ante urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam luctus, mi vel tincidunt pulvinar, lectus urna vestibulum velit, et pharetra enim sapien eget orci. Mauris in porta neque. In hac habitasse platea dictumst.
-					<a href="single-post.html">Read more...</a>
+					{{ link_to('torneo', 'Read more...') }}
 				</p>
 			</article>
 			<hr/>
@@ -102,7 +102,7 @@
 					</figcaption>
 				</figure>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacinia ipsum quis diam aliquam vel mollis nisi tempus. Nam et ante urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam luctus, mi vel tincidunt pulvinar, lectus urna vestibulum velit, et pharetra enim sapien eget orci. Mauris in porta neque. In hac habitasse platea dictumst.
-					<a href="single-post.html">Read more...</a>
+					{{ link_to('torneo', 'Read more...') }}
 				</p>
 			</article>
 			<hr/>
@@ -118,7 +118,7 @@
 					</figcaption>
 				</figure>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacinia ipsum quis diam aliquam vel mollis nisi tempus. Nam et ante urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam luctus, mi vel tincidunt pulvinar, lectus urna vestibulum velit, et pharetra enim sapien eget orci. Mauris in porta neque. In hac habitasse platea dictumst.
-					<a href="single-post.html">Read more...</a>
+					{{ link_to('torneo', 'Read more...') }}
 				</p>
 			</article>
 		</section>
@@ -129,7 +129,7 @@
 			<div class="sidebarbox">
 				<h3>Sobre el Torneo</h3>
 				<p>Elit cernantur in pariatur. Te illum de aute, a incididunt te pariatur. Vidisse aut tempor. Eu aut lorem cernantur, occaecat dolor mandaremus consequat. Do labore excepteur, dolor id admodum. Fabulas fugiat eiusmod incididunt. Si voluptate ita ullamco, iis minim incurreret voluptatibus an officia domesticarum nam cernantur est quis mentitum.
-					<a href="club.html">Read More...</a>
+					{{ link_to('torneo', 'Read more...') }}
 				</p>
 			</div>
 			<!-- SIDEBAR BOX -->
@@ -140,67 +140,40 @@
 				<!-- TABLE -->
 				<div class="fixture-row">
 					<a href="#">
-						<div class="fixture-row-left">Atlas
-							<div>?</div>
-						</div>
-						<div class="fixture-row-right">
-							<div>?</div>Salamanca</div>
+						<div class="fixture-row-left">Atlas<div>?</div></div>
+						<div class="fixture-row-right"><div>?</div>Salamanca</div>
 					</a>
 					<a href="#">
-						<div class="fixture-row-left">Barcelona
-							<div>1</div>
-						</div>
-						<div class="fixture-row-right">
-							<div>3</div>Borussia</div>
+						<div class="fixture-row-left">Barcelona<div>1</div></div>
+						<div class="fixture-row-right"><div>3</div>Borussia</div>
 					</a>
 					<a href="#">
-						<div class="fixture-row-left">La Docta FC
-							<div>4</div>
-						</div>
-						<div class="fixture-row-right">
-							<div>1</div>Cordoba FC</div>
+						<div class="fixture-row-left">La Docta FC<div>4</div></div>
+						<div class="fixture-row-right"><div>1</div>Cordoba FC</div>
 					</a>
 					<a href="#">
-						<div class="fixture-row-left">Elit FC
-							<div>2</div>
-						</div>
-						<div class="fixture-row-right">
-							<div>4</div>Voluptate Cillum FC</div>
+						<div class="fixture-row-left">Elit FC<div>2</div></div>
+						<div class="fixture-row-right"><div>4</div>Voluptate Cillum FC</div>
 					</a>
 					<a href="#">
-						<div class="fixture-row-left">Voluptate Cillum FC
-							<div>1</div>
-						</div>
-						<div class="fixture-row-right">
-							<div>1</div>Domesticarum FC</div>
+						<div class="fixture-row-left">Voluptate Cillum FC<div>1</div></div>
+						<div class="fixture-row-right"><div>1</div>Domesticarum FC</div>
 					</a>
 					<a href="#">
-						<div class="fixture-row-left">Ullamco FC
-							<div>6</div>
-						</div>
-						<div class="fixture-row-right">
-							<div>1</div>Voluptate Cillum FC</div>
+						<div class="fixture-row-left">Ullamco FC<div>6</div></div>
+						<div class="fixture-row-right"><div>1</div>Voluptate Cillum FC</div>
 					</a>
 					<a href="#">
-						<div class="fixture-row-left">Incididunt FC
-							<div>1</div>
-						</div>
-						<div class="fixture-row-right">
-							<div>5</div>Voluptate Cillum FC</div>
+						<div class="fixture-row-left">Incididunt FC<div>1</div></div>
+						<div class="fixture-row-right"><div>5</div>Voluptate Cillum FC</div>
 					</a>
 					<a href="#">
-						<div class="fixture-row-left">Voluptate Cillum FC
-							<div>2</div>
-						</div>
-						<div class="fixture-row-right">
-							<div>1</div>Pariatur FC</div>
+						<div class="fixture-row-left">Voluptate Cillum FC<div>2</div></div>
+						<div class="fixture-row-right"><div>1</div>Pariatur FC</div>
 					</a>
 					<a href="#">
-						<div class="fixture-row-left">Voluptate Cillum FC
-							<div>1</div>
-						</div>
-						<div class="fixture-row-right">
-							<div>3</div>Mentitum FC</div>
+						<div class="fixture-row-left">Voluptate Cillum FC<div>1</div></div>
+						<div class="fixture-row-right"><div>3</div>Mentitum FC</div>
 					</a>
 				</div>
 			</div>
@@ -217,7 +190,7 @@
 						</a>
 					</li>
 					<li>
-						<a class="clb-iframe" href="http://www.youtube.com/embed/1iIZeIy7TqM">
+						<a class="clb-iframe" href="http://www.youtube.com/embed/8I8XDEMx1UQ">
 							<img src="/img/photos/s1.jpg" alt="" />
 						</a>
 					</li>
@@ -227,7 +200,7 @@
 						</a>
 					</li>
 					<li>
-						<a class="clb-iframe" href="http://www.dailymotion.com/embed/video/x143vp2">
+						<a class="clb-iframe" href="http://www.youtube.com/embed/8I8XDEMx1UQ">
 							<img src="/img/photos/s1.jpg" alt="" />
 						</a>
 					</li>
@@ -237,7 +210,7 @@
 						</a>
 					</li>
 					<li>
-						<a class="clb-link" href="http://www.themeforest.com">
+						<a class="clb-link" href="http://www.ideasbox.com.ar">
 							<img src="/img/photos/s1.jpg" alt="" />
 						</a>
 					</li>
