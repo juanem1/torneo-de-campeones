@@ -50,7 +50,7 @@
 				<ul id="mainmenu">
 					<li><a href="{{ url('/') }}"><span>Novedades</span></a></li>
 					<li><a href="{{ url('torneo') }}"><span>Torneo</span></a></li>
-					<li><a href="{{ url('fixtures') }}"><span>Fixtures</span></a></li>
+					<li><a href="{{ url('fixture') }}"><span>Fixtures</span></a></li>
 					<li><a href="{{ url('tabla') }}"><span>Tabla</span></a></li>
 					<li><a href="{{ url('galeria') }}"><span>Galeria</span></a></li>
 					<li><a href="{{ url('contacto') }}"><span>Contacto</span></a></li>
@@ -64,13 +64,6 @@
 		<!-- JS FILES -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script type="text/javascript" src="/js/libraries.js"></script>
-		<!-- BG IMAGE -->
-		<script type="text/javascript">
-			jQuery(window).load(function() {
-				"use strict";
-				jQuery('body').backstretch("img/photos/bg-blurred.jpg");
-			});
-		</script>
 		<!-- SPONSORS SLIDER -->
 		<script type="text/javascript">
 			jQuery(document).ready(function() {
