@@ -34,7 +34,3 @@ Route::get('{provincia}', array('uses' => 'ProvinciaController@callProvincia'));
 Route::get('{provincia}/premier-league/{seccion}', array('uses' => 'ProvinciaController@callProvincia'));
 Route::get('{provincia}/serie-b/{seccion}', array('uses' => 'ProvinciaController@callProvincia'));
 Route::get('{provincia}/serie-c/{seccion}', array('uses' => 'ProvinciaController@callProvincia'));
-
-
-
-
