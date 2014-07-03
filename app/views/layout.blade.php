@@ -20,10 +20,13 @@
 			<a id="mobile-menu" href="#">SubMenu</a>
 			<nav id="submenu">
 				<ul>
-					<li>{{ link_to('/', 'novedades') }}</li>
-					<li>{{ link_to('torneo', 'torneo') }}</li>
-					<li>{{ link_to('galeria', 'galeria') }}</li>
-					<li>{{ link_to('contacto', 'contacto') }}</li>
+					<li>{{ link_to('buenos-aires', 'Buenos Aires') }}</li>
+					<li>{{ link_to('tucuman', 'Tucumán') }}</li>
+					<li>{{ link_to('cordoba', 'Córdoba') }}</li>
+					<li>{{ link_to('catamarca', 'Catamarca') }}</li>
+					<li>{{ link_to('santiago', 'Santiago') }}</li>
+					<li>{{ link_to('jujuy', 'Jujuy') }}</li>
+					<li>{{ link_to('el-nacional', 'El Nacional') }}</li>
 				</ul>
 			</nav>
 			<!-- LOGIN MENU -->
@@ -43,8 +46,10 @@
 			</div>
 		</header>
 		<div class="clear"></div>
+		
+		@section('menu')
 		<!-- MAIN MENU -->
-		<section id="mainmenu-container">
+        <section id="mainmenu-container">
 			<a class="toggleMenu" href="#">Menu</a>
 			<nav>
 				<ul id="mainmenu">
@@ -57,6 +62,8 @@
 				</ul>
 			</nav>
 		</section>
+		@show
+		
 		<!-- MAIN CONTAINER -->
 		<section class="maincontainer">
 			@yield('content')
