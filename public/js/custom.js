@@ -17,7 +17,7 @@ jQuery(document).ready(function() {
 });
 jQuery(window).load(function() {
     "use strict";
-    jQuery('body').backstretch("../img/photos/bg-blurred.jpg");
+    jQuery('body').backstretch("/img/photos/bg-blurred.jpg");
 });
   
 jQuery(window).load(function () {
