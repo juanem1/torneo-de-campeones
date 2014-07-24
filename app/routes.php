@@ -34,3 +34,13 @@ Route::get('{provincia}', array('uses' => 'ProvinciaController@callProvincia'));
 Route::get('{provincia}/premier-league/{seccion}', array('uses' => 'ProvinciaController@callProvincia'));
 Route::get('{provincia}/serie-b/{seccion}', array('uses' => 'ProvinciaController@callProvincia'));
 Route::get('{provincia}/serie-c/{seccion}', array('uses' => 'ProvinciaController@callProvincia'));
+
+// Login
+Route::get('login', array('as' => 'login', 'uses' => 'AccountController@login'));
+Route::post('authenticate', array('uses' => 'AccountController@authenticate'));
+
+// Rutas solo para admins
+Route::group(array('before' => 'auth'), function() {
+	// Dashboard
+    Route::get('dashboard', array('as' => 'dashboard', 'uses' => 'DashboardController@index'));
+});
