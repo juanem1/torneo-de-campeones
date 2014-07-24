@@ -32,8 +32,7 @@
 			<!-- LOGIN MENU -->
 			<nav id="submenu-login">
 				<ul>
-					<li><a href="#">Register</a></li>
-					<li><a href="#">Login</a></li>
+					<li>{{ link_to('login', 'Login') }}</li>
 				</ul>
 			</nav>
 		</section>
