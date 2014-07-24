@@ -26,7 +26,7 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'local' => array('your-machine-name'),
+	'local' => array('Juane-MacBook-Air.local'),
 
 ));
 
@@ -53,10 +53,7 @@ $app->bindInstallPaths(require __DIR__.'/paths.php');
 | from the actual running of the application with a given request.
 |
 */
-
-$framework = $app['path.base'].
-                 '/vendor/laravel/framework/src';
-
+$framework = $app['path.base'] . '/vendor/laravel/framework/src';
 require $framework.'/Illuminate/Foundation/start.php';
 
 /*
