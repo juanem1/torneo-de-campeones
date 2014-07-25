@@ -5,10 +5,16 @@
 	<!-- PAGE CONTAINER -->
 	<section class="pagecontainer using-grid">
 		<div class="grid">
-			<div class="unit two-thirds">
+			<div class="unit whole">
+				<div class="red message">
+					{{ Session::get('message') }}
+					<span class="message-close"></span>
+					<h5>Error</h5>
+					<p>El username o password es incorrecto.</p>
+				</div>
 				{{ Form::open(array('url' => 'authenticate', 'method' => 'post')) }}
     				{{ Form::label('username', 'Username:') }}
-					{{ Form::text('username') }}
+					{{ Form::text('username', Input::old('username')) }}
     				{{ Form::label('password', 'Password:') }}
 					{{ Form::password('password') }}
 					{{ Form::submit('Enviar', array('class' => 'button')) }}
