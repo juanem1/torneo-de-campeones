@@ -37,6 +37,7 @@ Route::get('{provincia}/serie-c/{seccion}', array('uses' => 'ProvinciaController
 
 // Login
 Route::get('login', array('as' => 'login', 'uses' => 'AccountController@login'));
+Route::get('logout', array('as' => 'logout', 'uses' => 'AccountController@logout'));
 Route::post('authenticate', array('uses' => 'AccountController@authenticate'));
 
 // Rutas solo para admins
