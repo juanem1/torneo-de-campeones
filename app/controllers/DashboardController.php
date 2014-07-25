@@ -5,7 +5,7 @@ class DashboardController extends BaseController {
 	protected $layout = 'layout';
 
 	public function index()	{
-		$this->layout->content = View::make('home');
+		$this->layout->content = View::make('dashboard.index');
 	}
 
 }
