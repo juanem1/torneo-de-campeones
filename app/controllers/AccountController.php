@@ -30,8 +30,8 @@ class AccountController extends BaseController {
 			$password = Input::get('password');
 			
 			if (Auth::attempt(array('username' => $username, 'password' => $password))) {
-				//return Redirect::intended('login')->with('message', 'Login Failed');
-				return Redirect::to('login')->withInput(Input::except('password'));
+				return Redirect::to('login')->with('message', 'Login Failed');
+				//return Redirect::to('login')->withInput(Input::except('password'));
 			} else {
 				return Redirect::to('dashboard');
 			}
