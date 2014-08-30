@@ -1,7 +1,6 @@
 @extends('layout')
 
 @section('menu')
-<!-- MAIN MENU -->
 <section id="mainmenu-container">
 	<a class="toggleMenu" href="#">Menu</a>
 	<nav>
