@@ -22,9 +22,7 @@ class AccountController extends BaseController {
 
 		$validator = Validator::make(Input::all(), $rules);
 		if ($validator->fails()) {
-			return Redirect::to('login')
-				->withErrors($validator)
-				->withInput(Input::except('password'));
+			return Redirect::to('login')->withInput(Input::except('password'))->withErrors($validator->messages());
 		} else {
 			$username = Input::get('username');
 			$password = Input::get('password');
