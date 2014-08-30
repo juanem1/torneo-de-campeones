@@ -5,7 +5,8 @@
 		<!-- META TAGS -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="user-scalable=0,width=device-width,height=device-height,initial-scale=1,maximum-scale=1" />
-		<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+		<link rel="icon" type="image/gif" href="/favicon.gif" />
+
 		<!-- CSS FILES -->
 		<link href="/css/libraries.css" rel="stylesheet" type="text/css" />
 		<link href="/css/styles.css" rel="stylesheet" type="text/css" />
@@ -15,28 +16,6 @@
 		<![endif]-->
 	</head>
 	<body>
-		<!-- SUB MENU -->
-		<section id="submenu-container">
-			<a id="mobile-menu" href="#">SubMenu</a>
-			<nav id="submenu">
-				<ul>
-					<li>{{ link_to('buenos-aires', 'Buenos Aires') }}</li>
-					<li>{{ link_to('tucuman', 'Tucumán') }}</li>
-					<li>{{ link_to('cordoba', 'Córdoba') }}</li>
-					<li>{{ link_to('catamarca', 'Catamarca') }}</li>
-					<li>{{ link_to('santiago', 'Santiago') }}</li>
-					<li>{{ link_to('jujuy', 'Jujuy') }}</li>
-					<li>{{ link_to('el-nacional', 'El Nacional') }}</li>
-				</ul>
-			</nav>
-			<!-- LOGIN MENU -->
-			<nav id="submenu-login">
-				<ul>
-					<li>{{ link_to('login', 'Login') }}</li>
-				</ul>
-			</nav>
-		</section>
-		<div class="clear"></div>
 		<!-- HEADER -->
 		<header id="header">
 			<div class="logo">
@@ -46,22 +25,7 @@
 		</header>
 		<div class="clear"></div>
 		
-		@section('menu')
-		<!-- MAIN MENU -->
-        <section id="mainmenu-container">
-			<a class="toggleMenu" href="#">Menu</a>
-			<nav>
-				<ul id="mainmenu">
-					<li><a href="{{ url('/') }}"><span>Novedades</span></a></li>
-					<li><a href="{{ url('torneo') }}"><span>Torneo</span></a></li>
-					<li><a href="{{ url('fixture') }}"><span>Fixtures</span></a></li>
-					<li><a href="{{ url('tabla') }}"><span>Tabla</span></a></li>
-					<li><a href="{{ url('galeria') }}"><span>Galeria</span></a></li>
-					<li><a href="{{ url('contacto') }}"><span>Contacto</span></a></li>
-				</ul>
-			</nav>
-		</section>
-		@show
+		@yield('mainmenu')
 		
 		<!-- MAIN CONTAINER -->
 		<section class="maincontainer">
