@@ -24,11 +24,9 @@ $app = new Illuminate\Foundation\Application;
 |
 */
 
-$env = $app->detectEnvironment(array(
-
-	'local' => array('Juane-MacBook-Air.local'),
-
-));
+$env = $app->detectEnvironment(function(){
+	return ($_SERVER['APP_ENV']) ? 'local' : 'production';
+});
 
 /*
 |--------------------------------------------------------------------------
