@@ -9,32 +9,46 @@ class ProvinciaController extends BaseController {
 		$this->$method();
 	}
 
-	public function buenosAires()	{
-		$this->layout->content = View::make('provincias.buenos-aires');
+	public function buenosAires()
+	{
+		$provincia = 'buenos-aires';
+		$this->layout->content = View::make('provincias.buenosaires.home', compact('provincia'));
 	}
 
-	public function tucuman()	{
-		$this->layout->content = View::make('provincias.tucuman');
+	public function tucuman()
+	{
+		$provincia = 'tucuman';
+		$this->layout->content = View::make('provincias.tucuman.home', compact('provincia'));
 	}
 
-	public function cordoba()	{
-		$this->layout->content = View::make('provincias.cordoba');
+	public function cordoba()
+	{
+		$provincia = 'cordoba';
+		$this->layout->content = View::make('provincias.cordoba.home', compact('provincia'));
 	}
 
-	public function catamarca()	{
-		$this->layout->content = View::make('provincias.catamarca');
+	public function catamarca()
+	{
+		$provincia = 'catamarca';
+		$this->layout->content = View::make('provincias.catamarca.home', compact('provincia'));
 	}
 
-	public function santiago()	{
-		$this->layout->content = View::make('provincias.santiago');
+	public function santiago()
+	{
+		$provincia = 'santiago';
+		$this->layout->content = View::make('provincias.santiago.home', compact('provincia'));
 	}
 
-	public function jujuy() {
-		$this->layout->content = View::make('provincias.jujuy');
+	public function jujuy()
+	{
+		$provincia = 'jujuy';
+		$this->layout->content = View::make('provincias.jujuy.home', compact('provincia'));
 	}
 
-	public function elNacional() {
-		$this->layout->content = View::make('provincias.el-nacional');
+	public function elNacional()
+	{
+		$provincia = 'cordoba';
+		$this->layout->content = View::make('provincias.el-nacional.home');
 	}
 
 }
