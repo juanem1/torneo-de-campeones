@@ -18,16 +18,15 @@ Route::get('galeria', array('as' => 'galeria', 'uses' => 'PageController@galeria
 Route::get('contacto', array('as' => 'contacto', 'uses' => 'PageController@contacto'));
 
 // Provincias
-/*Route::get('buenos-aires', array('uses' => 'ProvinciaController@buenosAires'));
+Route::get('buenos-aires', array('uses' => 'ProvinciaController@buenosAires'));
 Route::get('tucuman', array('uses' => 'ProvinciaController@tucuman'));
 Route::get('cordoba', array('uses' => 'ProvinciaController@cordoba'));
 Route::get('catamarca', array('uses' => 'ProvinciaController@catamarca'));
 Route::get('santiago', array('uses' => 'ProvinciaController@santiago'));
 Route::get('jujuy', array('uses' => 'ProvinciaController@jujuy'));
 Route::get('el-nacional', array('uses' => 'ProvinciaController@elNacional'));
-*/
 
-Route::pattern('provincia', '(buenos-aires|tucuman|cordoba|catamarca|santiago|jujuy|el-nacional)');
+/*Route::pattern('provincia', '(buenos-aires|tucuman|cordoba|catamarca|santiago|jujuy|el-nacional)');
 Route::pattern('seccion', '(equipos|fixture|posiciones)');
 
 Route::get('{provincia}', array('uses' => 'ProvinciaController@callProvincia'));
@@ -44,4 +43,4 @@ Route::post('authenticate', array('uses' => 'AccountController@authenticate'));
 Route::group(array('before' => 'auth'), function() {
 	// Dashboard
     Route::get('dashboard', array('as' => 'dashboard', 'uses' => 'DashboardController@index'));
-});
+});*/
