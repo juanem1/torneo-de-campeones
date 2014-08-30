@@ -127,15 +127,8 @@
 		   
 			<!-- SIDEBAR BOX -->
 			<div class="sidebarbox">
-				<h3>Sobre el Torneo</h3>
-				<p>Elit cernantur in pariatur. Te illum de aute, a incididunt te pariatur. Vidisse aut tempor. Eu aut lorem cernantur, occaecat dolor mandaremus consequat. Do labore excepteur, dolor id admodum. Fabulas fugiat eiusmod incididunt. Si voluptate ita ullamco, iis minim incurreret voluptatibus an officia domesticarum nam cernantur est quis mentitum.
-					{{ link_to('torneo', 'Read more...') }}
-				</p>
-			</div>
-			<!-- SIDEBAR BOX -->
-			<div class="sidebarbox">
 				<div class="sidebarbox-title">
-					<h3>Fixture</h3>
+					<h3>POSICIONES</h3>
 				</div>
 				<!-- TABLE -->
 				<div class="fixture-row">
