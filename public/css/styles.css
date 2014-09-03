@@ -1194,13 +1194,14 @@ textarea {
     height:350px;
 }
 .homeLogos{
-    margin: 0 auto;
+    float: left;
+    width: 80%;
 }
 .homeLogos .homeLogo{
     display: inline-block;
-    margin: 20px 13px;
+    margin: 0;
     height: 100px;
-    width: 120px;   
+    width: 24%;  
 }
 .homeLogos .buenosAires{
     background:url(../img/home/normal/buenosaires.png) transparent no-repeat center center;
@@ -1257,17 +1258,18 @@ textarea {
     background:url(../img/home/over/tucuman.png) transparent no-repeat center center;
 }
 .headerBlack .logo img {
-    margin: 55px 65px 0 0;
-    height: 180px!important;
-    width: 300px!important;
+    margin: 4em 2em 0 0;
+    height: auto;
+    width: 100%;
 }
 .logoWrapper {
     width: 68%;
-    padding-top: 35px;
+    padding-top: 5em;
     margin: 0 auto;
 }
 .logoWrapper .bienvenidos {
     float: left;
+    width: 20%;
 }
 /* ================= BACK TO TOP BUTTON ================== */
  .back-to-top {
