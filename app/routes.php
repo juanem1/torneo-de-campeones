@@ -25,6 +25,7 @@ Route::get('catamarca', array('uses' => 'ProvinciaController@catamarca'));
 Route::get('santiago', array('uses' => 'ProvinciaController@santiago'));
 Route::get('jujuy', array('uses' => 'ProvinciaController@jujuy'));
 Route::get('el-nacional', array('uses' => 'ProvinciaController@elNacional'));
+Route::get('santa-fe', array('uses' => 'ProvinciaController@santaFe'));
 
 /*Route::pattern('provincia', '(buenos-aires|tucuman|cordoba|catamarca|santiago|jujuy|el-nacional)');
 Route::pattern('seccion', '(equipos|fixture|posiciones)');
