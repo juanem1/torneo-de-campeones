@@ -217,38 +217,8 @@
 		</section>
 	</section>
 	<div class="clear"></div>
-	<!-- SPONSORS TITLE -->
-	<div class="logos-title">Sponsors</div>
-	<!-- SPONSORS SLIDER -->
-	<section class="transparent-bg">
-		<div id="logos">
-			<div class="slide">
-				<a href="#">
-					<img src="/img/photos/logo.png" alt="" />
-				</a>
-			</div>
-			<div class="slide">
-				<a href="#">
-					<img src="/img/photos/logo.png" alt="" />
-				</a>
-			</div>
-			<div class="slide">
-				<a href="#">
-					<img src="/img/photos/logo.png" alt="" />
-				</a>
-			</div>
-			<div class="slide">
-				<a href="#">
-					<img src="/img/photos/logo.png" alt="" />
-				</a>
-			</div>
-			<div class="slide">
-				<a href="#">
-					<img src="/img/photos/logo.png" alt="" />
-				</a>
-			</div>
-		</div>
-	</section>
+	<!-- Sponsors -->
+	@include('partials.sponsors')
 	<!-- FOOTER -->
 	@include('partials.footer')
 @stop
