@@ -1189,6 +1189,86 @@ textarea {
     transition:all 0.2s ease-in-out;
     padding:5px;
 }
+.headerBlack {
+    background-color:rgba(3, 0, 0, 0.8) !important;
+    height:350px;
+}
+.homeLogos{
+    margin: 0 auto;
+}
+.homeLogos .homeLogo{
+    display: inline-block;
+    margin: 20px 13px;
+    height: 100px;
+    width: 120px;   
+}
+.homeLogos .buenosAires{
+    background:url(../img/home/normal/buenosaires.png) transparent no-repeat center center;
+}
+.homeLogos .catamarca{
+    background:url(../img/home/normal/catamarca.png) transparent no-repeat center center;
+}
+.homeLogos .cordoba{
+    background:url(../img/home/normal/cordoba.png) transparent no-repeat center center;
+}
+.homeLogos .santafe{
+    background:url(../img/home/normal/santafe.png) transparent no-repeat center center;
+}
+.homeLogos .elnacional{
+    background:url(../img/home/normal/elnacional.png) transparent no-repeat center center;
+}
+.homeLogos .jujuy{
+    background:url(../img/home/normal/jujuy.png) transparent no-repeat center center;
+}
+.homeLogos .santafe{
+    background:url(../img/home/normal/santafe.png) transparent no-repeat center center;
+}
+.homeLogos .santiago{
+    background:url(../img/home/normal/santiago.png) transparent no-repeat center center;
+}
+.homeLogos .tucuman{
+    background:url(../img/home/normal/tucuman.png) transparent no-repeat center center;
+}
+.homeLogos .buenosAires:hover {
+    background:url(../img/home/over/buenosaires.png) transparent no-repeat center center;
+}
+.homeLogos .catamarca:hover {
+    background:url(../img/home/over/catamarca.png) transparent no-repeat center center;
+}
+.homeLogos .cordoba:hover {
+    background:url(../img/home/over/cordoba.png) transparent no-repeat center center;
+}
+.homeLogos .santafe:hover {
+    background:url(../img/home/over/santafe.png) transparent no-repeat center center;
+}
+.homeLogos .elnacional:hover {
+    background:url(../img/home/over/elnacional.png) transparent no-repeat center center;
+}
+.homeLogos .jujuy:hover {
+    background:url(../img/home/over/jujuy.png) transparent no-repeat center center;
+}
+.homeLogos .santafe:hover {
+    background:url(../img/home/over/santafe.png) transparent no-repeat center center;
+}
+.homeLogos .santiago:hover {
+    background:url(../img/home/over/santiago.png) transparent no-repeat center center;
+}
+.homeLogos .tucuman:hover {
+    background:url(../img/home/over/tucuman.png) transparent no-repeat center center;
+}
+.headerBlack .logo img {
+    margin: 55px 65px 0 0;
+    height: 180px!important;
+    width: 300px!important;
+}
+.logoWrapper {
+    width: 68%;
+    padding-top: 35px;
+    margin: 0 auto;
+}
+.logoWrapper .bienvenidos {
+    float: left;
+}
 /* ================= BACK TO TOP BUTTON ================== */
  .back-to-top {
     position: fixed;
