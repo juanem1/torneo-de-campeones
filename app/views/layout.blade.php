@@ -19,7 +19,7 @@
 		<!-- HEADER -->
 		<header id="header">
 			<div class="logo">
-				<img src="/img/logo.png" alt="Torneo de Campeones logo" />
+				<a href="/"><img src="/img/logo.png" alt="Torneo de Campeones logo" /></a>
 				<span>Torneo de Campeones</span>
 			</div>
 		</header>
