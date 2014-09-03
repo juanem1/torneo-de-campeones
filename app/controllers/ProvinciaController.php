@@ -47,8 +47,14 @@ class ProvinciaController extends BaseController {
 
 	public function elNacional()
 	{
-		$provincia = 'cordoba';
-		$this->layout->content = View::make('provincias.el-nacional.home');
+		$provincia = 'el-nacional';
+		$this->layout->content = View::make('provincias.elnacional.home', compact('provincia'));
+	}
+
+	public function santaFe()
+	{
+		$provincia = 'santa-fe';
+		$this->layout->content = View::make('provincias.santafe.home', compact('provincia'));
 	}
 
 }
