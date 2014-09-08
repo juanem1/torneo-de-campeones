@@ -4,28 +4,35 @@ class PageController extends BaseController {
 
 	protected $layout = 'layout';
 
-	public function home()	{
+	public function home()
+	{
 		return View::make('home');
 	}
 
-	public function torneo()	{
+	public function torneo()
+	{
 		$this->layout->content = View::make('torneo');
 	}
 
-	public function fixture()	{
+	public function fixture()
+	{
 		$this->layout->content = View::make('fixture');
 	}
 
-	public function tabla()	{
+	public function tabla()
+	{
 		$this->layout->content = View::make('tabla');
 	}
 
-	public function galeria()	{
+	public function galeria()
+	{
 		$this->layout->content = View::make('galeria');
 	}
 
-	public function contacto() {
-		$this->layout->content = View::make('contacto');
+	public function contacto()
+	{
+		$provincia = Request::segment(1);
+		$this->layout->content = View::make('contacto', compact('provincia'));
 	}
 
 }
