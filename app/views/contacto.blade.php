@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('mainmenu')
+@include('partials.mainmenu')
+@stop
+
 @section('content')
 	<!-- PAGE TITLE -->
 	<div class="page-title">Comunicate con nosotros</div>
@@ -9,14 +13,13 @@
 		<div class="grid">
 			<!-- LEFT SIDE -->
 			<div class="unit two-thirds">
+				<h2>Facebooks</h2>
+				<p>Facebook Tucumán <a href="https://www.facebook.com/torneofrancomorales" target="_blank">facebook.com/torneofrancomorales</a></p> 
+				<p>Facebook Córdoba: <a href="https://www.facebook.com/torneodecampeonescdba" target="_blank">facebook.com/torneodecampeonescdba</a></p> 
+				<p>Facebook Catamarca: <a href="https://www.facebook.com/torneodecampeonescat" target="_blank">facebook.com/torneodecampeonescat</a></p> 
+
 				<h2>Canchas</h2>
 				<p><strong>CANCHA 1:</strong> Voluptate se quorum pariatur, qui esse quae hic excepteur hic dolor illustriora ingeniis dolor iudicem, officia varias malis iis minim. Qui duis fore minim nescius an quis familiaritatem possumus sint nescius a lorem singulis domesticarum, quibusdam an legam cernantur.</p>
-				<!-- GOOGLE MAP -->
-				<div class="flex-video">
-					<iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=tr&amp;geocode=&amp;q=new+york&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=39.371738,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=New+York&amp;t=m&amp;z=10&amp;ll=40.714353,-74.005973&amp;output=embed&amp;iwloc=near"></iframe>
-				</div>
-
-				<p><strong>CANCHA 2:</strong> Proident quem non voluptate transferrem id se non fore iudicem, qui in duis sunt irure se ullamco quo multos. In ne varias magna velit quo aliqua deserunt domesticarum. Ita multos aliquip cohaerescant, velit ea quamquam ne irure aut an quis est ipsum, anim exquisitaque laboris cillum tempor. Irure appellat si aute nisi.</p>
 				<!-- GOOGLE MAP -->
 				<div class="flex-video">
 					<iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=tr&amp;geocode=&amp;q=new+york&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=39.371738,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=New+York&amp;t=m&amp;z=10&amp;ll=40.714353,-74.005973&amp;output=embed&amp;iwloc=near"></iframe>
@@ -26,9 +29,9 @@
 			<div class="unit one-third">
 				<h3>Contacto directo</h3>
 				<ul class="list">
-					<li><strong>Dirección:</strong> Velez Sarsfield 456</li>
-					<li><strong>Teléfono:</strong> +54 9 0351 4265897</li>
-					<li><strong>Celular:</strong> +54 9 351 6 543210</li>
+					<li><strong>Tucumán:</strong> 381-416-5617</li>
+					<li><strong>Córdoba:</strong> 351-557-1904</li>
+					<li><strong>Catamarca:</strong> 381-416-5617</li>
 				</ul>
 				<h3>Ingresa tu consulta!</h3>
 				<!-- CONTACT FORM -->

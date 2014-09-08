@@ -7,7 +7,7 @@
 			<li><a href="{{ url($provincia.'/posiciones') }}"><span>Posiciones</span></a></li>
 			<li><a href="{{ url($provincia.'/goleadores') }}"><span>Goleadores</span></a></li>
 			<li><a href="{{ url($provincia.'/sanciones') }}"><span>Sanciones</span></a></li>
-			<li><a href="{{ url('contacto') }}"><span>Contacto</span></a></li>
+			<li><a href="{{ url($provincia.'/contacto') }}"><span>Contacto</span></a></li>
 		</ul>
 	</nav>
 </section>

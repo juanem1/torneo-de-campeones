@@ -6,13 +6,9 @@
 	<section class="pagecontainer using-grid">
 		<div class="grid">
 			<div class="unit whole">
-				<div class="red message">
-					
-					<span class="message-close"></span>
-					<h5>Error</h5>
-					{{ Session::get('message') }}
-					<p>El username o password es incorrecto.</p>
-				</div>
+				
+				@include('partials.messages')
+				
 				{{ Form::open(array('url' => 'authenticate', 'method' => 'post')) }}
     				{{ Form::label('username', 'Username:') }}
 					{{ Form::text('username', Input::old('username')) }}

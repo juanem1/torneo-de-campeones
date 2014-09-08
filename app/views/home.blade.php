@@ -26,16 +26,16 @@
 					<div>
 						<div class="homeLogos">
 							<div class="row1">
-								<a class="homeLogo buenosAires" href="{{ url('buenos-aires') }}" title="Buenos Aires"></a>
-								<a class="homeLogo catamarca" href="{{ url('catamarca') }}" title="Catamarca"></a>
 								<a class="homeLogo cordoba" href="{{ url('cordoba') }}" title="Córdoba"></a>
-								<a class="homeLogo elnacional" href="{{ url('el-nacional') }}" title="El Nacional"></a>
+								<a class="homeLogo tucuman" href="{{ url('tucuman') }}" title="Tucumán"></a>
+								<a class="homeLogo catamarca" href="{{ url('catamarca') }}" title="Catamarca"></a>
+								<a class="homeLogo jujuy" href="{{ url('jujuy') }}" title="Jujuy"></a>
 							</div>
 							<div class="row2">
-								<a class="homeLogo jujuy" href="{{ url('jujuy') }}" title="Jujuy"></a>
-								<a class="homeLogo santafe" href="{{ url('santa-fe') }}" title="Santa Fe"></a>
 								<a class="homeLogo santiago" href="{{ url('santiago') }}" title="Santiago del Estero"></a>
-								<a class="homeLogo tucuman" href="{{ url('tucuman') }}" title="Tucumán"></a>
+								<a class="homeLogo santafe" href="{{ url('santa-fe') }}" title="Santa Fe"></a>
+								<a class="homeLogo buenosAires" href="{{ url('buenos-aires') }}" title="Buenos Aires"></a>
+								<a class="homeLogo elnacional" href="{{ url('el-nacional') }}" title="El Nacional"></a>
 							</div>
 						</div>
 					</div>

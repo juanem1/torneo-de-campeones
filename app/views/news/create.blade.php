@@ -1,0 +1,1 @@
+/Users/juane/Documents/htdocs/football/app/views/news/create.blade.php
