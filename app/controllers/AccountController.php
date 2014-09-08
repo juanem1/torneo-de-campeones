@@ -4,16 +4,13 @@ class AccountController extends BaseController {
 
 	protected $layout = 'layout';
 
-	public function login()	{
-		/*$user = new User;
-		$user->username = 'admin';
-		$user->password = Hash::make('password');
-		$user->email = 'juanemilioturk@gmail.com';
-		$user->save();*/
+	public function login()
+	{
 		$this->layout->content = View::make('account.login');
 	}
 
-	public function authenticate() {
+	public function authenticate()
+	{
 
 		$rules = array(
 			'username' => 'required',
@@ -21,15 +18,14 @@ class AccountController extends BaseController {
 		);
 
 		$validator = Validator::make(Input::all(), $rules);
-		if ($validator->fails()) {
-			return Redirect::to('login')->withInput(Input::except('password'))->withErrors($validator->messages());
+		if ( $validator->fails() ) {
+			return Redirect::back()->withInput()->withErrors($validator->messages());
 		} else {
 			$username = Input::get('username');
 			$password = Input::get('password');
 			
 			if (Auth::attempt(array('username' => $username, 'password' => $password))) {
-				return Redirect::to('login')->with('message', 'Login Failed');
-				//return Redirect::to('login')->withInput(Input::except('password'));
+				return Redirect::back()->withErrors('Login Failed');
 			} else {
 				return Redirect::to('dashboard');
 			}
