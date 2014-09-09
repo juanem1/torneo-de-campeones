@@ -9,10 +9,9 @@
 		<div class="grid">
 			<div class="unit whole">
 				<div class="full_width">
-					<p><strong>{{ $news->title }}</strong></p>
+					<h1>{{ $news->title }}</h1>
 					<p>{{ $news->body }}</p>
 				</div>
-				
 			</div>
 		</div>
 	</section>
