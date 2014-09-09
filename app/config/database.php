@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'default' => 'sqlite',
+	'default' => 'mysql',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -44,10 +44,15 @@ return array(
 	|
 	*/
 	'connections' => array(
-		'sqlite' => array(
-			'driver'   => 'sqlite',
-			'database' => __DIR__.'/../database/football.db',
-			'prefix'   => '',
+		'mysql' => array(
+			'driver'    => 'mysql',
+			'host'      => 'localhost',
+			'database'  => 'torneodecampeones',
+			'username'  => 'torneodecampeones',
+			'password'  => 'TorneoCampeones123$',
+			'charset'   => 'utf8',
+			'collation' => 'utf8_unicode_ci',
+			'prefix'    => '',
 		),
 	),
 
