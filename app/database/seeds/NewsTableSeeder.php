@@ -14,7 +14,7 @@ class NewsTableSeeder extends Seeder {
 			News::create([
 				'provincia_id' => $faker->numberBetween(1, 8),
 				'title' => $faker->sentence(),
-				'body' => $faker->paragraph()
+				'body' => $faker->text(2000)
 			]);
 		}
 	}
