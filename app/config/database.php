@@ -48,7 +48,7 @@ return array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
 			'database'  => 'torneodecampeones',
-			'username'  => 'torneodecampeones',
+			'username'  => 'tdecampeones',
 			'password'  => 'TorneoCampeones123$',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
