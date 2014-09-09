@@ -18,6 +18,7 @@ class CreateHomesliderTable extends Migration {
 			$table->string('image');
 			$table->string('title');
 			$table->string('body', 150);
+			$table->integer('provincia_id');
 			$table->timestamps();
 		});
 	}
