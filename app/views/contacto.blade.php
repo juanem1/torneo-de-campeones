@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('mainmenu')
-@include('partials.mainmenu')
+	{{ $mainmenu }}
 @stop
 
 @section('content')
