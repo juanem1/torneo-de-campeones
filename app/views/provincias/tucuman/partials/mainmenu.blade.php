@@ -2,8 +2,8 @@
 	<a class="toggleMenu" href="#">Menu</a>
 	<nav>
 		<ul id="mainmenu">
-			<li><a href="{{ url($provincia) }}"><span>Noticias</span></a></li>
-			<li><a href="{{ url($provincia.'/reglamento') }}"><span>Reglamento</span></a></li>
+			<li><a href="{{ url('tucuman') }}"><span>Noticias</span></a></li>
+			<li><a href="{{ url('tucuman/reglamento') }}"><span>Reglamento</span></a></li>
 			<li>
 				<a href="#"><span>Primera A</span></a>
 				<ul class="sub-menu">
@@ -47,7 +47,7 @@
 				<a href="#"><span>Mayores de 30</span></a>
 			</li>			
 			<li>
-				<a href="{{ url($provincia.'/contacto') }}"><span>Contacto</span></a>
+				<a href="{{ url('tucuman/contacto') }}"><span>Contacto</span></a>
 			</li>
 		</ul>
 	</nav>

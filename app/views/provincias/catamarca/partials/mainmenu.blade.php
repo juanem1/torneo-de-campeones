@@ -2,8 +2,8 @@
 	<a class="toggleMenu" href="#">Menu</a>
 	<nav>
 		<ul id="mainmenu">
-			<li><a href="{{ url($provincia) }}"><span>Noticias</span></a></li>
-			<li><a href="{{ url($provincia.'/reglamento') }}"><span>Reglamento</span></a></li>
+			<li><a href="{{ url('catamarca') }}"><span>Noticias</span></a></li>
+			<li><a href="{{ url('catamarca/reglamento') }}"><span>Reglamento</span></a></li>
 			<li>
 				<a href="#"><span>Equipos</span></a>
 				<ul class="sub-menu">
@@ -26,7 +26,7 @@
 				</ul>
 			</li>
 			<li><a href="http://www.enjore.com/es/score/t-11282/apertura-2014/"><span>Goleadores</span></a></li>
-			<li><a href="{{ url($provincia.'/contacto') }}"><span>Contacto</span></a></li>
+			<li><a href="{{ url('catamarca/contacto') }}"><span>Contacto</span></a></li>
 		</ul>
 	</nav>
 </section>
