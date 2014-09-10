@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('mainmenu')
-	@include('partials.mainmenu')
+	@include('provincias.cordoba.partials.mainmenu')
 @stop
 
 @section('content')

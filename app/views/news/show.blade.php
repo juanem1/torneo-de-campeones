@@ -3,22 +3,18 @@
 
 @section('content')
 
-<div class="page-title">Novedad</div>
+	<div class="page-title">Novedad</div>
 
-<section class="pagecontainer using-grid">
-	<div class="grid">
-		<div class="unit whole">
-			<div class="full_width">
-				<p><strong>Titulo:</strong> {{ $news->title }}</p>
-				<p><strong>Cuerpo:</strong>{{ $news->body }}</p>
-			</div>
-			<div class="full_width">
-				<p>{{ link_to('news/'.$news->id.'/edit', 'Editar Novedad') }}</p>
+	<section class="pagecontainer using-grid">
+		<div class="grid">
+			<div class="unit whole">
+				<div class="full_width">
+					<h1>{{ $news->title }}</h1>
+					<p>{{ $news->body }}</p>
+				</div>
 			</div>
 		</div>
-	</div>
-
-</section>
+	</section>
 
 	<div class="clear"></div>
 	<!-- FOOTER -->

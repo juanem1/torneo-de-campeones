@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('mainmenu')
-@include('partials.mainmenutucuman')
+	@include('provincias.tucuman.partials.mainmenu')
 @stop
 
 @section('content')

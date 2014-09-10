@@ -14,7 +14,8 @@ class HomesliderTableSeeder extends Seeder {
 			Homeslider::create([
 				'image' => 'slider'.$index.'.jpg',
 				'title' => $faker->sentence(),
-				'body' => $faker->sentence()
+				'body' => $faker->sentence(),
+				'provincia_id' => $faker->numberBetween(1, 8)
 			]);
 		}
 	}
