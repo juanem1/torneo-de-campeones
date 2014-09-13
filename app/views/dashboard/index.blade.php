@@ -9,7 +9,7 @@
 
 				<div>
 					<h3>Novedades</h3>
-					{{ link_to('novedades/index', 'Administrar novedades.') }}
+					{{ link_to('news', 'Administrar novedades.') }}
 				</div>
 				<hr>
 				<div>

@@ -7,7 +7,7 @@
 			<div class="body">
 				{{ $new->body }}
 			</div>
-			<div>{{ link_to('news/' . $new->id , 'Leer más...') }}</div>
+			<div>{{ link_to($provincia. '/novedades/' . $new->slug , 'Leer más...') }}</div>
 		</article>
 		<hr/>
 	@endforeach

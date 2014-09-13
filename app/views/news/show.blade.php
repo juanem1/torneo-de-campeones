@@ -1,15 +1,18 @@
 @extends('layout')
 
+@section('mainmenu')
+	{{ $mainmenu or '' }}
+@stop
+
 
 @section('content')
 
-	<div class="page-title">Novedad</div>
+	<div class="page-title">{{ $news->title }}</div>
 
 	<section class="pagecontainer using-grid">
 		<div class="grid">
 			<div class="unit whole">
 				<div class="full_width">
-					<h1>{{ $news->title }}</h1>
 					<p>{{ $news->body }}</p>
 				</div>
 			</div>
