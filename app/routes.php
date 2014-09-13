@@ -2,9 +2,11 @@
 
 // Noticias
 /*['only' => ['index', 'show']]*/
-Route::resource('news', 'NewsController');
 Route::resource('homeslider', 'HomesliderController');
 
+// Novedades
+Route::resource('news', 'NewsController');
+Route::get('{provincia}/novedades/{slug}', array('uses' => 'NewsController@showBySlug'));
 
 Route::get('/', array('as' => 'home', 'uses' => 'PageController@home'));
 Route::get('torneo', array('as' => 'torneo', 'uses' => 'PageController@torneo'));
@@ -30,7 +32,7 @@ Route::get('logout', array('as' => 'logout', 'uses' => 'AccountController@logout
 Route::post('authenticate', array('uses' => 'AccountController@authenticate'));
 
 // Rutas solo para admins
-//Route::group(array('before' => 'auth'), function() {
+Route::group(array('before' => 'auth'), function() {
 	// Dashboard
     Route::get('dashboard', array('as' => 'dashboard', 'uses' => 'DashboardController@index'));
-//});
+});
