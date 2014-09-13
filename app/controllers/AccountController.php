@@ -14,7 +14,7 @@ class AccountController extends BaseController {
 
 		$rules = array(
 			'username' => 'required',
-			'password' => 'required|alphaNum|min:3'
+			'password' => 'required|min:3'
 		);
 
 		$validator = Validator::make(Input::all(), $rules);
@@ -25,7 +25,7 @@ class AccountController extends BaseController {
 			$password = Input::get('password');
 			
 			if (Auth::attempt(array('username' => $username, 'password' => $password))) {
-				return Redirect::back()->withErrors('Login Failed');
+				return Redirect::back()->withInput()->withErrors('Login Failed');
 			} else {
 				return Redirect::to('dashboard');
 			}

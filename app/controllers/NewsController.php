@@ -4,6 +4,11 @@ class NewsController extends \BaseController {
 
 	protected $layout = 'layout';
 
+	public function __construct()
+	{
+		$this->beforeFilter('auth', array('only' => array('index', 'show', 'edit', 'update')));
+	}
+
 	/**
 	 * Display a listing of the resource.
 	 * GET /news
@@ -49,6 +54,18 @@ class NewsController extends \BaseController {
 	{
 		$news = News::find($id);
 		$this->layout->content = View::make('news.show', compact('news'));
+	}
+
+
+	/**
+	 * @param $provincia
+	 * @param $slug
+	 */
+	public function showBySlug($provincia, $slug)
+	{
+		$news = News::where('slug', $slug)->first();
+		$mainmenu = View::make('provincias.'.$provincia.'.partials.mainmenu');
+		$this->layout->content = View::make('news.show', compact('news', 'mainmenu'));
 	}
 
 	/**
