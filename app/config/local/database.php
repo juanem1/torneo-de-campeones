@@ -47,7 +47,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'football',
+			'database'  => 'torneodecampeones',
 			'username'  => 'homestead',
 			'password'  => 'secret',
 			'charset'   => 'utf8',
