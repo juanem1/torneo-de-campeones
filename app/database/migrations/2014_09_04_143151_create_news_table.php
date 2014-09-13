@@ -17,6 +17,7 @@ class CreateNewsTable extends Migration {
 			$table->increments('id');
 			$table->integer('provincia_id');
 			$table->string('title');
+			$table->string('slug');
 			$table->text('body')->unllable();
 			$table->timestamps();
 		});

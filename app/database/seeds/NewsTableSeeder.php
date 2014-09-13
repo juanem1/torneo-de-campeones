@@ -11,9 +11,11 @@ class NewsTableSeeder extends Seeder {
 
 		foreach(range(1, 10) as $index)
 		{
+			$title = $faker->sentence();
 			News::create([
 				'provincia_id' => $faker->numberBetween(1, 8),
-				'title' => $faker->sentence(),
+				'title' => $title,
+				'slug' => Str::slug($title),
 				'body' => $faker->text(2000)
 			]);
 		}
