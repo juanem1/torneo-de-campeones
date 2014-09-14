@@ -1,6 +1,4 @@
 <?php
-
-// Noticias
 /*['only' => ['index', 'show']]*/
 Route::resource('homeslider', 'HomesliderController');
 
