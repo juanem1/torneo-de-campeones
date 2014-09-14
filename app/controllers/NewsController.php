@@ -12,7 +12,6 @@ class NewsController extends \BaseController {
 	/**
 	 * Display a listing of the resource.
 	 * GET /news
-	 *
 	 * @return Response
 	 */
 	public function index()
