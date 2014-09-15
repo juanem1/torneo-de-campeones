@@ -28,7 +28,8 @@ class NewsController extends \BaseController {
 	 */
 	public function create()
 	{
-		//
+		$provincias = Provincia::lists('name', 'id');
+		$this->layout->content = View::make('news.create', compact('provincias'));
 	}
 
 	/**
@@ -39,7 +40,18 @@ class NewsController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+		$validator = Validator::make($data = Input::all(), News::$rules);
+
+		if ($validator->fails())
+		{
+			return Redirect::back()->withErrors($validator)->withInput();
+		}
+
+		$newNew = Input::all();
+		$newNew['slug'] = Str::slug(Input::get('title'));
+		News::create($newNew);
+
+		return Redirect::to('news');
 	}
 
 	/**
@@ -112,7 +124,9 @@ class NewsController extends \BaseController {
 	 */
 	public function destroy($id)
 	{
-		//
+		$news = News::findOrFail($id);
+		$news->delete();
+		return Redirect::to('news');
 	}
 
 }
