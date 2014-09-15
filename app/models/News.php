@@ -14,7 +14,7 @@ class News extends \Eloquent {
 
 	// Relacion
 	public function provincia() {
-		return $this->belongsTo('provincia');
+		return $this->belongsTo('Provincia');
 	}
 
 }
