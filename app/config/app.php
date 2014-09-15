@@ -121,7 +121,6 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
 		// vendor
-		'Barryvdh\Debugbar\ServiceProvider',
 		'Way\Generators\GeneratorsServiceProvider',
 
 	),
