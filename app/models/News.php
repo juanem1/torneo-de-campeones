@@ -16,4 +16,5 @@ class News extends \Eloquent {
 	public function provincia() {
 		return $this->belongsTo('provincia');
 	}
+	
 }
