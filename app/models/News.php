@@ -4,7 +4,7 @@ class News extends \Eloquent {
 
 	protected $table = 'news';
 
-	protected $fillable = ['title', 'body', 'provincia_id'];
+	protected $fillable = ['title', 'body', 'provincia_id', 'slug'];
 
 	public static $rules = [
 		'title' => 'required',

@@ -10,6 +10,4 @@
 	{{ Form::select('provincia_id', $provincias, null) }}
 </div>
 
-<div>
-	{{ Form::submit('Enviar', array('class' => 'button')) }}
-</div>
+{{ Form::submit('Guardar', array('class' => 'button')) }}

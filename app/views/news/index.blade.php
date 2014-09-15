@@ -1,15 +1,18 @@
 @extends('layout')
 
+@section('mainmenu')
+	@include('news.partials.mainmenu')
+@stop
 
 @section('content')
-	<div class="page-title">Editar Novedades</div>
+	<div class="page-title">Novedades</div>
 
 	<section class="pagecontainer">
 		<div class="full_width">
 			@foreach($news as $new)
 				<h3>{{ $new->title }} <small>({{ $new->provincia->name }})</small> </h3>
 				<p>{{ $new->body }}</p>
-				{{ link_to('news/' . $new->id . '/edit', 'Editar') }}
+				{{ link_to('news/' . $new->id . '/edit', 'Editar', array('class' => "button")) }}
 				<hr>
 			@endforeach
 

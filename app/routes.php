@@ -12,7 +12,7 @@ Route::get('torneo', array('as' => 'torneo', 'uses' => 'PageController@torneo'))
 Route::get('fixture', array('as' => 'fixture', 'uses' => 'PageController@fixture'));
 Route::get('tabla', array('as' => 'tabla', 'uses' => 'PageController@tabla'));
 Route::get('galeria', array('as' => 'galeria', 'uses' => 'PageController@galeria'));
-// COntacto por provincia
+// Contacto por provincia
 Route::get('{provincia}/contacto', array('as' => 'contacto', 'uses' => 'PageController@contacto'));
 
 // Provincias
@@ -34,4 +34,8 @@ Route::post('authenticate', array('uses' => 'AccountController@authenticate'));
 Route::group(array('before' => 'auth'), function() {
 	// Dashboard
     Route::get('dashboard', array('as' => 'dashboard', 'uses' => 'DashboardController@index'));
+
+	Route::get('user/edit', array('as' => 'user.edit', 'uses' => 'AccountController@edit'));
+	Route::patch('user/update', array('as' => 'user.update', 'uses' => 'AccountController@update'));
 });
+

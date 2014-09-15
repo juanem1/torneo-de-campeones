@@ -18,10 +18,14 @@
 				</div>
 				<hr>
 				<div>
-					<h3>Ultimos partidos</h3>
+					<h3>Ultimos Partidos</h3>
 					{{ link_to('ultimospartidos/index', 'Administrar ultimos partidos.') }}
 				</div>
-
+				<hr>
+				<div>
+					<h3>Cuenta</h3>
+					{{ link_to('user/edit', 'Cambiar contraseña.') }}
+				</div>
 			</div>
 		</div>
 	</section>
