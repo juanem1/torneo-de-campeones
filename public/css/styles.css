@@ -749,6 +749,9 @@ textarea {
 	transition: background-color 0.15s ease-in-out;
 	border: none !important;
 }
+.button-delete {
+    background-color: #c00;
+}
 .searchbox .button {
     -webkit-border-radius: 0px !important;
     -moz-border-radius: 0px !important;
