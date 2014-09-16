@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('mainmenu')
+@section(mainmenus)
 	{{ $mainmenu }}
 @stop
 
