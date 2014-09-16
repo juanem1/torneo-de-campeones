@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('mainmenu')
-@include('news.partials.mainmenu')
+    @include('dashboard.partials.mainmenu')
 @stop
 
 @section('content')
