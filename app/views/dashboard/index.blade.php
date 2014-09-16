@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('mainmenu')
+	@include('dashboard.partials.mainmenu')
+@stop
+
 @section('content')
 	<div class="page-title">Dashboard</div>
 	<!-- PAGE CONTAINER -->
@@ -17,10 +21,10 @@
 					{{ link_to('homeslider', 'Administrar home slider.') }}
 				</div>
 				<hr>
-				<!--div>
+				<div>
 					<h3>Ultimos Partidos</h3>
-					{{ link_to('ultimospartidos/index', 'Administrar ultimos partidos.') }}
-				</div-->
+					{{ link_to('ultimospartidos', 'Administrar ultimos partidos.') }}
+				</div>
 				<hr>
 				<div>
 					<h3>Cuenta</h3>
