@@ -1207,7 +1207,6 @@ textarea {
 }
 .headerBlack {
     background-color:rgba(3, 0, 0, 0.8) !important;
-    /*height:350px;*/
 }
 @media (min-width: 768px) {
     .container {
@@ -1286,17 +1285,6 @@ textarea {
 .logoWrapper .tucuman:hover {
     background:url(../img/home/over/tucuman.png) transparent no-repeat center center;
 }
-/*.headerBlack .logo img {
-    margin: 4em 2em 0 0;
-    height: auto;
-    width: 100%;
-}
-.logoWrapper {
-    width: 68%;
-    padding-top: 5em;
-    margin: 0 auto;
-}
-*/
 /* ================= BACK TO TOP BUTTON ================== */
  .back-to-top {
     position: fixed;
@@ -1313,4 +1301,7 @@ textarea {
     -o-transition:background 0.2s ease-in-out;
     -ms-transition:background 0.2s ease-in-out;
     transition:background 0.2s ease-in-out;
+}
+.ultimospartidosWrapper p {
+    margin: 0;
 }
