@@ -75,7 +75,7 @@ class NewsController extends \BaseController {
 	public function showBySlug($provincia, $slug)
 	{
 		$news = News::where('slug', $slug)->first();
-		$mainmenu = View::make('provincias.'.$provincia.'.partials.mainmenu');
+		$mainmenu = View::make('partials.mainmenus.'.$provincia);
 		$this->layout->content = View::make('news.show', compact('news', 'mainmenu'));
 	}
 
