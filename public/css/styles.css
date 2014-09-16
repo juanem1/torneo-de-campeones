@@ -1213,15 +1213,15 @@ textarea {
     .container {
         max-width: 800px;
     }
+    .logoWrapper .bienvenidos {
+        margin: 25px 0 10px 25px;
+    }
 }
 .logoWrapper{
     padding-bottom: 30px;
 }
 .logoWrapper .col-md-3{
     text-align: center;
-}
-.logoWrapper .bienvenidos {
-    margin: 25px 0 10px 25px;
 }
 .logoWrapper .homeLogo{
     display: inline-block;
