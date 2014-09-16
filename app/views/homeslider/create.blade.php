@@ -1,9 +1,11 @@
 @extends('layout')
 
+@section('mainmenu')
+	@include('dashboard.partials.mainmenu')
+@stop
 
 @section('content')
 	<div class="page-title">Nuevo Home Slider</div>
-
 	<section class="pagecontainer using-grid">
 		<div class="grid">
 			<div class="unit whole">

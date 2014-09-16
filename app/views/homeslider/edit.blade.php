@@ -1,5 +1,8 @@
 @extends('layout')
 
+@section('mainmenu')
+	@include('dashboard.partials.mainmenu')
+@stop
 
 @section('content')
 	<div class="page-title">Editar Home Slider</div>
