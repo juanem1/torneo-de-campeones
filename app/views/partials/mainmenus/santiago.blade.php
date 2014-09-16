@@ -3,7 +3,7 @@
 	<nav>
 		<ul id="mainmenu">
 			<li><a href="{{ url('santiago') }}"><span>Noticias</span></a></li>
-			<li><a href="{{ url('santiago/reglamento') }}"><span>Reglamento</span></a></li>
+			<li><a href="#"><span>Reglamento</span></a></li>
 			<li><a href="#"><span>Equipos</span></a></li>
 			<li><a href="#"><span>Fixture</span></a></li>
 			<li><a href="#"><span>Posiciones</span></a></li>
