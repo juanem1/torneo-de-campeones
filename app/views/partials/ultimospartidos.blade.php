@@ -1,6 +1,6 @@
 <section class="transparent-bg">
 	<div id="fixture">
-        @if ($ultimospartidos)
+        @if ( isset($ultimospartidos) )
             @foreach($ultimospartidos as $partido)
                 <div class="slide-content">
                     <div class="match-results">
