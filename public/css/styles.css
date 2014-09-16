@@ -1223,6 +1223,9 @@ textarea {
 .logoWrapper .col-md-3{
     text-align: center;
 }
+.logoWrapper .bienvenidos {
+    margin-top: 25px;
+}
 .logoWrapper .homeLogo{
     display: inline-block;
     margin: 0;
