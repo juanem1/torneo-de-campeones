@@ -22,7 +22,7 @@
 			<div class="logo">
 				<div class="logoWrapper">
 					<div class="bienvenidos">
-						<img src="/img/home/bienvenidos.png" width="300" height="180" >
+						<img class="img-responsive" src="/img/home/bienvenidos.png" width="300" height="180" >
 					</div>
 
 					<div class="row">
