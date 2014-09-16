@@ -7,6 +7,7 @@ class ProvinciaTableSeeder extends Seeder {
 
 	public function run()
 	{
+		Provincia::create(['name' => 'Todas']);
 		Provincia::create(['name' => 'Buenos Aires']);
 		Provincia::create(['name' => 'Catamarca']);
 		Provincia::create(['name' => 'Córdoba']);
