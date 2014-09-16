@@ -17,10 +17,10 @@
 					{{ link_to('homeslider', 'Administrar home slider.') }}
 				</div>
 				<hr>
-				<div>
+				<!--div>
 					<h3>Ultimos Partidos</h3>
 					{{ link_to('ultimospartidos/index', 'Administrar ultimos partidos.') }}
-				</div>
+				</div-->
 				<hr>
 				<div>
 					<h3>Cuenta</h3>
