@@ -32,8 +32,8 @@ class PageController extends BaseController {
 	public function contacto()
 	{
 		$provincia = Request::segment(1);
-		$mainmenu = View::make('provincias.'.$provincia.'.partials.mainmenus');
-		$this->layout->content = View::make('contacto', compact('provincia', 'mainmenus'));
+		$mainmenu = View::make('partials.mainmenus.'.$provincia);
+		$this->layout->content = View::make('contacto', compact('provincia', 'mainmenu'));
 	}
 
 }
