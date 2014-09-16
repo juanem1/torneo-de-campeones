@@ -1,6 +1,7 @@
 <?php
 /*['only' => ['index', 'show']]*/
 Route::resource('homeslider', 'HomesliderController');
+Route::resource('ultimospartidos', 'UltimospartidosController');
 
 // Novedades
 Route::resource('news', 'NewsController');
