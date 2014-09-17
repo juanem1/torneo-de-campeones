@@ -16,7 +16,7 @@ class NewsController extends \BaseController {
 	 */
 	public function index()
 	{
-		$news = News::with('provincia')->paginate(5);
+		$news = News::with('provincia')->orderBy('updated_at', 'DESC')->paginate(5);
 		$this->layout->content = View::make('news.index', compact('news'));
 	}
 
