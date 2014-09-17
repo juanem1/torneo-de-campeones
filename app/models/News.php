@@ -8,7 +8,7 @@ class News extends \Eloquent {
 
 	public static $rules = [
 		'title' => 'required',
-		'body' => 'required',
+		'body' => 'required|min:20',
 		'provincia_id' => 'required',
 	];
 
