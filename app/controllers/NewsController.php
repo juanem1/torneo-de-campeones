@@ -110,6 +110,7 @@ class NewsController extends \BaseController {
 		}
 
 		$news = News::findOrFail($id);
+		$data['slug'] = Str::slug(Input::get('title'));
 		$news->update($data);
 
 		return Redirect::to('news');
