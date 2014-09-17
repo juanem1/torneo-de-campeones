@@ -11,13 +11,15 @@
             <div class="unit whole">
                 <div class="full_width">
                     @foreach($sliders as $slider)
-                        <ul>
+                        <ul class="list-unstyled">
                             <li><strong>Titulo:</strong> {{ $slider->title }}</li>
                             <li><strong>Provincia:</strong> {{ $slider->provincia->name }}</li>
                             <li><strong>Imagen:</strong><a href="/img/slider/{{ $slider->image }}"> {{ $slider->image }}</a></li>
                             <li><strong>Cuerpo:</strong> {{ $slider->body }}</li>
                         </ul>
-                        <p><a href="/homeslider/{{ $slider->id }}/edit">Editar</a></p>
+                        <p>
+                            {{ link_to('homeslider/' . $slider->id . '/edit', 'Editar', array('class' => "button")) }}
+                        </p>
                         <hr />
                     @endforeach
                 </div>
