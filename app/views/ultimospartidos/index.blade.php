@@ -22,6 +22,6 @@
 
 	<div class="clear"></div>
 	<!-- FOOTER -->
-	@include('...partials.footer')
+	@include('partials.footer')
 
 @stop
