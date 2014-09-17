@@ -11,7 +11,7 @@
 		<div class="full_width">
 			@foreach($news as $new)
 				<h3>{{ $new->title }} <small>({{ $new->provincia->name }})</small> </h3>
-				<p>{{ $new->body }}</p>
+				<p>{{ Str::words($new->body, 100) }}</p>
 				{{ link_to('news/' . $new->id . '/edit', 'Editar', array('class' => "button")) }}
 				<hr>
 			@endforeach

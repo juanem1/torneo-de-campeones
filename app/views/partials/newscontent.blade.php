@@ -11,5 +11,8 @@
 		</article>
 		<hr/>
 	@endforeach
+
+	{{ $news->links('partials.pagination') }}
+
 </section>
 <div class="clear"></div>
