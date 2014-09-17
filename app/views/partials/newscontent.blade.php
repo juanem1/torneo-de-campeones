@@ -5,7 +5,7 @@
 		<article class="post">
 			<h2>{{ $new->title }}</h2>
 			<div class="body">
-				{{ $new->body }}
+				{{ Str::words($new->body, 100) }}
 			</div>
 			<div>{{ link_to($provincia. '/novedades/' . $new->slug , 'Leer más...') }}</div>
 		</article>
