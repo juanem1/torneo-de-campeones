@@ -13,7 +13,7 @@ class ProvinciaController extends BaseController {
 	{
 		$provincia = 'buenos-aires';
 		$mainmenu = View::make('partials.mainmenus.buenos-aires');
-		$news = News::whereIn('provincia_id', array(1, 2))->get();
+		$news = News::whereIn('provincia_id', array(1, 2))->orderBy('updated_at', 'DESC')->get();
 		$sliders = Homeslider::whereIn('provincia_id', array(1, 2))->get();
 		$ultimospartidos = Ultimospartidos::whereIn('provincia_id', array(1, 2))->get();
 		$this->layout->content = View::make('provincias', compact('provincia', 'sliders', 'news', 'mainmenu', 'ultimospartidos'));
@@ -23,7 +23,7 @@ class ProvinciaController extends BaseController {
 	{
 		$provincia = 'catamarca';
 		$mainmenu = View::make('partials.mainmenus.catamarca');
-		$news = News::whereIn('provincia_id', array(1, 3))->get();
+		$news = News::whereIn('provincia_id', array(1, 3))->orderBy('updated_at', 'DESC')->get();
 		$sliders = Homeslider::whereIn('provincia_id', array(1, 3))->get();
 		$this->layout->content = View::make('provincias', compact('provincia', 'sliders', 'news', 'mainmenu'));
 	}
@@ -32,7 +32,7 @@ class ProvinciaController extends BaseController {
 	{
 		$provincia = 'cordoba';
 		$mainmenu = View::make('partials.mainmenus.cordoba');
-		$news = News::whereIn('provincia_id', array(1, 4))->get();
+		$news = News::whereIn('provincia_id', array(1, 4))->orderBy('updated_at', 'DESC')->get();
 		$sliders = Homeslider::whereIn('provincia_id', array(1, 4))->get();
 		$this->layout->content = View::make('provincias', compact('provincia', 'sliders', 'news', 'mainmenu'));
 	}
@@ -41,7 +41,7 @@ class ProvinciaController extends BaseController {
 	{
 		$provincia = 'el-nacional';
 		$mainmenu = View::make('partials.mainmenus.el-nacional');
-		$news = News::whereIn('provincia_id', array(1, 5))->get();
+		$news = News::whereIn('provincia_id', array(1, 5))->orderBy('updated_at', 'DESC')->get();
 		$sliders = Homeslider::whereIn('provincia_id', array(1, 5))->get();
 		$this->layout->content = View::make('provincias', compact('provincia', 'sliders', 'news', 'mainmenu'));
 	}
@@ -50,7 +50,7 @@ class ProvinciaController extends BaseController {
 	{
 		$provincia = 'jujuy';
 		$mainmenu = View::make('partials.mainmenus.jujuy');
-		$news = News::whereIn('provincia_id', array(1, 6))->get();
+		$news = News::whereIn('provincia_id', array(1, 6))->orderBy('updated_at', 'DESC')->get();
 		$sliders = Homeslider::whereIn('provincia_id', array(1, 6))->get();
 		$this->layout->content = View::make('provincias', compact('provincia', 'sliders', 'news', 'mainmenu'));
 	}
@@ -59,7 +59,7 @@ class ProvinciaController extends BaseController {
 	{
 		$provincia = 'santa-fe';
 		$mainmenu = View::make('partials.mainmenus.santa-fe');
-		$news = News::whereIn('provincia_id', array(1, 7))->get();
+		$news = News::whereIn('provincia_id', array(1, 7))->orderBy('updated_at', 'DESC')->get();
 		$sliders = Homeslider::whereIn('provincia_id', array(1, 7))->get();
 		$this->layout->content = View::make('provincias', compact('provincia', 'sliders', 'news', 'mainmenu'));
 	}
@@ -68,7 +68,7 @@ class ProvinciaController extends BaseController {
 	{
 		$provincia = 'santiago';
 		$mainmenu = View::make('partials.mainmenus.santiago');
-		$news = News::whereIn('provincia_id', array(1, 8))->get();
+		$news = News::whereIn('provincia_id', array(1, 8))->orderBy('updated_at', 'DESC')->get();
 		$sliders = Homeslider::whereIn('provincia_id', array(1, 8))->get();
 		$this->layout->content = View::make('provincias', compact('provincia', 'sliders', 'news', 'mainmenu'));
 	}
@@ -77,7 +77,7 @@ class ProvinciaController extends BaseController {
 	{
 		$provincia = 'tucuman';
 		$mainmenu = View::make('partials.mainmenus.tucuman');
-		$news = News::whereIn('provincia_id', array(1, 9))->get();
+		$news = News::whereIn('provincia_id', array(1, 9))->orderBy('updated_at', 'DESC')->get();
 		$sliders = Homeslider::whereIn('provincia_id', array(1, 9))->get();
 		$this->layout->content = View::make('provincias', compact('provincia', 'sliders', 'news', 'mainmenu'));
 	}
