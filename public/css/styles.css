@@ -1047,6 +1047,10 @@ textarea {
 .message p {
     margin: 0;
 }
+.message ul {
+    color: #fff;
+    margin: 0;
+}
 @keyframes animate-bg {
     from {
         background-position: 0 0;
