@@ -1215,9 +1215,14 @@ textarea {
 @media (min-width: 768px) {
     .container {
         max-width: 800px;
+        -o-border-radius: 0 0 10px 10px;
+        -ms-border-radius: 0 0 10px 10px;
+        -moz-border-radius: 0 0 10px 10px;
+        -webkit-border-radius: 0 0 10px 10px;
+        border-radius: 0 0 10px 10px;
     }
     .logoWrapper .bienvenidos {
-        margin: 25px 0 10px 25px;
+        margin: 25px 0 25px 25px;
     }
 }
 .logoWrapper{
@@ -1234,6 +1239,11 @@ textarea {
     margin: 0;
     height: 100px;
     width: 120px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 }
 .logoWrapper .buenosAires{
     background:url(../img/home/normal/buenosaires.png) transparent no-repeat center center;
