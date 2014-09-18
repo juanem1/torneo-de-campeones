@@ -3,7 +3,7 @@
 	<nav>
 		<ul id="mainmenu">
 			<li><a href="{{ url('catamarca') }}"><span>Noticias</span></a></li>
-			<li><a href="#"><span>Reglamento</span></a></li>
+			<li><a href="/reglamento-torneo-de-campeones.pdf"><span>Reglamento</span></a></li>
 			<li>
 				<a href="#"><span>Equipos</span></a>
 				<ul class="sub-menu">
