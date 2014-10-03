@@ -11,6 +11,18 @@
 		<link href="/css/libraries.css" rel="stylesheet" type="text/css" />
 		<link href="/css/styles.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript" src="/js/modernizr.js"></script>
+		<script>
+          window.fbAsyncInit = function() {
+            FB.init({appId:'1481777382098216',xfbml:true,version:'v2.1'});
+          };
+          (function(d, s, id){
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) {return;}
+             js = d.createElement(s); js.id = id;
+             js.src = "//connect.facebook.net/en_US/sdk.js";
+             fjs.parentNode.insertBefore(js, fjs);
+           }(document, 'script', 'facebook-jssdk'));
+        </script>
 		<!--[if lt IE 9]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
