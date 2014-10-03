@@ -14,8 +14,10 @@
 			<div class="unit whole">
 				<div class="full_width">
 					<p>{{ $news->body }}</p>
-					<p>Última actualización: {{ $news->updated_at }}</p>
 				</div>
+				<br/>
+				<div data-width="100%" class="fb-comments" data-href="{{ URL::full() }}" data-numposts="5" data-colorscheme="light"></div>
+				<p>Última actualización: {{ $news->updated_at }}</p>
 			</div>
 		</div>
 	</section>
