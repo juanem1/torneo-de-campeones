@@ -93,6 +93,11 @@
 			</li>
 			<li>
 				<a href="#"><span>Mayores de 30</span></a>
+				<ul>
+				    <li><a target="_blank" href="http://www.enjore.com/es/calendar/26600/full/30-clausura-2014/"><span>Fixture</span></a></li>
+				    <li><a target="_blank" href="http://www.enjore.com/es/teamtable/26600/30-clausura-2014/"><span>Posiciones</span></a></li>
+				    <li><a target="_blank" href="http://www.enjore.com/es/score/26600/30-clausura-2014/"><span>Goleadores</span></a></li>
+				</ul>
 			</li>
 			<li>
 				<a href="{{ url('tucuman/contacto') }}"><span>Contacto</span></a>
