@@ -6,7 +6,8 @@ class AccountController extends BaseController {
 
 	public function login()
 	{
-		$this->layout->content = View::make('account.login');
+		$provincia = 'tucuman';
+		$this->layout->content = View::make('account.login', compact('provincia'));
 	}
 
 	public function authenticate()
@@ -39,7 +40,8 @@ class AccountController extends BaseController {
 
 	public function edit()
 	{
-		$this->layout->content = View::make('account.edit');
+		$provincia = 'tucuman';
+		$this->layout->content = View::make('account.edit', compact('provincia'));
 	}
 
 	public function update()
