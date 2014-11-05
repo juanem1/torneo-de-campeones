@@ -1,3 +1,4 @@
+<?php $provincia = isset($provincia) ? $provincia : 'tucuman'; ?>
 <footer id="footer">
 	<div class="clear"></div>
 	<!-- COPYRIGHT -->
