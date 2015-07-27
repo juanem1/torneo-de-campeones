@@ -32,17 +32,17 @@
 					<li><strong>Córdoba:</strong> 351-557-1904</li>
 					<li><strong>Catamarca:</strong> 381-416-5617</li>
 				</ul>
-				<h3>Ingresa tu consulta!</h3>
+				{{--<h3>Ingresa tu consulta!</h3>--}}
 				<!-- CONTACT FORM -->
-				<form id="contactForm" action="processform.php" method="post">
-					<label>Tú nombre:</label>
-					<input type="text" name="senderName" id="senderName" required="required" maxlength="40" />
-					<label>Tú email:</label>
-					<input type="email" name="senderEmail" id="senderEmail" required="required" maxlength="50" />
-					<label>Tú mensaje:</label>
-					<textarea name="message" id="message" required="required"></textarea>
-					<input type="submit" id="sendMessage" name="sendMessage" class="button" value="Enviar" />
-				</form>
+				{{--<form id="contactForm" action="processform.php" method="post">--}}
+					{{--<label>Tú nombre:</label>--}}
+					{{--<input type="text" name="senderName" id="senderName" required="required" maxlength="40" />--}}
+					{{--<label>Tú email:</label>--}}
+					{{--<input type="email" name="senderEmail" id="senderEmail" required="required" maxlength="50" />--}}
+					{{--<label>Tú mensaje:</label>--}}
+					{{--<textarea name="message" id="message" required="required"></textarea>--}}
+					{{--<input type="submit" id="sendMessage" name="sendMessage" class="button" value="Enviar" />--}}
+				{{--</form>--}}
 			</div>
 		</div>
 	</section>
