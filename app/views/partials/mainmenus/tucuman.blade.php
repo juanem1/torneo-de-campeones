@@ -10,29 +10,29 @@
                     <li>
                         <a href="#"><span>Posiciones</span></a>
                         <ul class="sub-menu">
-                            <li><a target="_blank" href="http://www.enjore.com/es/teamtable/34581/primera-a-apertura-2015-grupo-a/"><span>Grupo A</span></a></li>
-                            <li><a target="_blank" href="http://www.enjore.com/es/teamtable/34582/primera-a-apertura-2015-grupo-b/"><span>Grupo B</span></a></li>
-                            <li><a target="_blank" href="http://www.enjore.com/es/teamtable/34583/primera-a-apertura-2015-grupo-c/"><span>Grupo C</span></a></li>
-                            <li><a target="_blank" href="http://www.enjore.com/es/teamtable/34584/primera-a-apertura-2015-grupo-d/"><span>Grupo D</span></a></li>
+                            <li><a target="_blank" href="https://www.enjore.com/es/teamtable/73531/primera-a-clausura-2015-grupo-a/"><span>Grupo A</span></a></li>
+                            <li><a target="_blank" href="https://www.enjore.com/es/teamtable/73532/primera-a-clausura-2015-grupo-b/"><span>Grupo B</span></a></li>
+                            <li><a target="_blank" href="https://www.enjore.com/es/teamtable/73533/primera-a-clausura-2015-grupo-c/"><span>Grupo C</span></a></li>
+                            <li><a target="_blank" href="https://www.enjore.com/es/teamtable/73534/primera-a-clausura-2015-grupo-d/"><span>Grupo D</span></a></li>
                         </ul>
                     </li>
-                    <li><a target="_blank" href="http://www.enjore.com/es/score/t-17337/primera-a-apertura-2015/"><span>Goleadores</span></a></li>
+                    <li><a target="_blank" href="https://www.enjore.com/es/score/t-35360/primera-a-clausura-2015/"><span>Goleadores</span></a></li>
                     <li>
                         <a href="#"><span>Fixture</span></a>
                         <ul class="sub-menu">
-                            <li><a target="_blank" href="http://www.enjore.com/es/calendar/34581/full/primera-a-apertura-2015-grupo-a/"><span>Grupo A</span></a></li>
-                            <li><a target="_blank" href="http://www.enjore.com/es/calendar/34582/full/primera-a-apertura-2015-grupo-b/"><span>Grupo B</span></a></li>
-                            <li><a target="_blank" href="http://www.enjore.com/es/calendar/34583/full/primera-a-apertura-2015-grupo-c/"><span>Grupo C</span></a></li>
-                            <li><a target="_blank" href="http://www.enjore.com/es/calendar/34584/full/primera-a-apertura-2015-grupo-d/"><span>Grupo D</span></a></li>
+                            <li><a target="_blank" href="https://www.enjore.com/es/calendar/73531/full/primera-a-clausura-2015-grupo-a/"><span>Grupo A</span></a></li>
+                            <li><a target="_blank" href="https://www.enjore.com/es/calendar/73532/full/primera-a-clausura-2015-grupo-b/"><span>Grupo B</span></a></li>
+                            <li><a target="_blank" href="https://www.enjore.com/es/calendar/73533/full/primera-a-clausura-2015-grupo-c/"><span>Grupo C</span></a></li>
+                            <li><a target="_blank" href="https://www.enjore.com/es/calendar/73534/full/primera-a-clausura-2015-grupo-d/"><span>Grupo D</span></a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="#"><span>Equipos</span></a>
                         <ul class="sub-menu">
-                            <li><a target="_blank" href="http://www.enjore.com/es/team-list/34581/primera-a-apertura-2015-grupo-a/"><span>Grupo A</span></a></li>
-                            <li><a target="_blank" href="http://www.enjore.com/es/team-list/34582/primera-a-apertura-2015-grupo-b/"><span>Grupo B</span></a></li>
-                            <li><a target="_blank" href="http://www.enjore.com/es/team-list/34583/primera-a-apertura-2015-grupo-c/"><span>Grupo C</span></a></li>
-                            <li><a target="_blank" href="http://www.enjore.com/es/team-list/34584/primera-a-apertura-2015-grupo-d/"><span>Grupo D</span></a></li>
+                            <li><a target="_blank" href="https://www.enjore.com/es/team-list/73531/primera-a-clausura-2015-grupo-a/"><span>Grupo A</span></a></li>
+                            <li><a target="_blank" href="https://www.enjore.com/es/team-list/73532/primera-a-clausura-2015-grupo-b/"><span>Grupo B</span></a></li>
+                            <li><a target="_blank" href="https://www.enjore.com/es/team-list/73533/primera-a-clausura-2015-grupo-c/"><span>Grupo C</span></a></li>
+                            <li><a target="_blank" href="https://www.enjore.com/es/team-list/73534/primera-a-clausura-2015-grupo-d/"><span>Grupo D</span></a></li>
                         </ul>
                     </li>
                 </ul>
@@ -43,23 +43,23 @@
                     <li>
                         <a href="#"><span>Posiciones</span></a>
                         <ul class="sub-menu">
-                            <li><a target="_blank" href="http://www.enjore.com/es/teamtable/34649/primera-b-apertura-2015-grupo-a/"><span>Grupo A</span></a></li>
-                            <li><a target="_blank" href="http://www.enjore.com/es/teamtable/34650/primera-b-apertura-2015-grupo-b/"><span>Grupo B</span></a></li>
+                            <li><a target="_blank" href="https://www.enjore.com/es/teamtable/73539/primera-b-clausura-2015-grupo-a/"><span>Grupo A</span></a></li>
+                            <li><a target="_blank" href="https://www.enjore.com/es/teamtable/73540/primera-b-clausura-2015-grupo-b/"><span>Grupo B</span></a></li>
                         </ul>
                     </li>
-                    <li><a target="_blank" href="http://www.enjore.com/es/score/t-17372/primera-b-apertura-2015/"><span>Goleadores</span></a></li>
+                    <li><a target="_blank" href="https://www.enjore.com/es/score/t-35365/primera-b-clausura-2015/"><span>Goleadores</span></a></li>
                     <li>
                         <a href="#"><span>Fixture</span></a>
                         <ul class="sub-menu">
-                            <li><a target="_blank" href="http://www.enjore.com/es/calendar/34649/full/primera-b-apertura-2015-grupo-a/"><span>Grupo A</span></a></li>
-                            <li><a target="_blank" href="http://www.enjore.com/es/calendar/34650/full/primera-b-apertura-2015-grupo-b/"><span>Grupo B</span></a></li>
+                            <li><a target="_blank" href="https://www.enjore.com/es/calendar/73539/full/primera-b-clausura-2015-grupo-a/"><span>Grupo A</span></a></li>
+                            <li><a target="_blank" href="https://www.enjore.com/es/calendar/73540/full/primera-b-clausura-2015-grupo-b/"><span>Grupo B</span></a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="#"><span>Equipos</span></a>
                         <ul class="sub-menu">
-                            <li><a target="_blank" href="http://www.enjore.com/es/team-list/34649/primera-b-apertura-2015-grupo-a/"><span>Grupo A</span></a></li>
-                            <li><a target="_blank" href="http://www.enjore.com/es/team-list/34650/primera-b-apertura-2015-grupo-b/"><span>Grupo B</span></a></li>
+                            <li><a target="_blank" href="https://www.enjore.com/es/team-list/73539/primera-b-clausura-2015-grupo-a/"><span>Grupo A</span></a></li>
+                            <li><a target="_blank" href="https://www.enjore.com/es/team-list/73540/primera-b-clausura-2015-grupo-b/"><span>Grupo B</span></a></li>
                         </ul>
                     </li>
                 </ul>
