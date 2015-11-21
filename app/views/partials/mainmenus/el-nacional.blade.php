@@ -23,9 +23,9 @@
                     <li><a target="_blank" href="https://www.enjore.com/es/calendar/74000/full/iii-nacional-torneo-de-campeones-argentina-grupo-b/"><span>Grupo B</span></a></li>
                     <li><a target="_blank" href="https://www.enjore.com/es/calendar/74001/full/iii-nacional-torneo-de-campeones-argentina-grupo-c/"><span>Grupo C</span></a></li>
                     <li><a target="_blank" href="https://www.enjore.com/es/calendar/74002/full/iii-nacional-torneo-de-campeones-argentina-grupo-d/"><span>Grupo D</span></a></li>
-                    <li><a target="_blank" href="https://www.enjore.com/es/calendar/74003/full/iii-nacional-torneo-de-campeones-argentina-grupo-e/"><span>Grupo D</span></a></li>
-                    <li><a target="_blank" href="https://www.enjore.com/es/calendar/74004/full/iii-nacional-torneo-de-campeones-argentina-grupo-f/"><span>Grupo D</span></a></li>
-                    <li><a target="_blank" href="https://www.enjore.com/es/calendar/74005/full/iii-nacional-torneo-de-campeones-argentina-grupo-g/"><span>Grupo D</span></a></li>
+                    <li><a target="_blank" href="https://www.enjore.com/es/calendar/74003/full/iii-nacional-torneo-de-campeones-argentina-grupo-e/"><span>Grupo E</span></a></li>
+                    <li><a target="_blank" href="https://www.enjore.com/es/calendar/74004/full/iii-nacional-torneo-de-campeones-argentina-grupo-f/"><span>Grupo F</span></a></li>
+                    <li><a target="_blank" href="https://www.enjore.com/es/calendar/74005/full/iii-nacional-torneo-de-campeones-argentina-grupo-g/"><span>Grupo G</span></a></li>
                     <li><a target="_blank" href="http://www.enjore.com/es/calendar/30534/copa-de-oro/"><span>Copa de Oro</span></a></li>
                     <li><a target="_blank" href="http://www.enjore.com/es/calendar/30535/copa-de-plata/"><span>Copa de Plata</span></a></li>
                 </ul>
@@ -37,9 +37,9 @@
                     <li><a target="_blank" href="https://www.enjore.com/es/teamtable/74000/iii-nacional-torneo-de-campeones-argentina-grupo-b/"><span>Grupo B</span></a></li>
                     <li><a target="_blank" href="https://www.enjore.com/es/teamtable/74001/iii-nacional-torneo-de-campeones-argentina-grupo-c/"><span>Grupo C</span></a></li>
                     <li><a target="_blank" href="https://www.enjore.com/es/teamtable/74002/iii-nacional-torneo-de-campeones-argentina-grupo-d/"><span>Grupo D</span></a></li>
-                    <li><a target="_blank" href="https://www.enjore.com/es/teamtable/74003/iii-nacional-torneo-de-campeones-argentina-grupo-e/"><span>Grupo D</span></a></li>
-                    <li><a target="_blank" href="https://www.enjore.com/es/teamtable/74004/iii-nacional-torneo-de-campeones-argentina-grupo-f/"><span>Grupo D</span></a></li>
-                    <li><a target="_blank" href="https://www.enjore.com/es/teamtable/74005/iii-nacional-torneo-de-campeones-argentina-grupo-g/"><span>Grupo D</span></a></li>
+                    <li><a target="_blank" href="https://www.enjore.com/es/teamtable/74003/iii-nacional-torneo-de-campeones-argentina-grupo-e/"><span>Grupo E</span></a></li>
+                    <li><a target="_blank" href="https://www.enjore.com/es/teamtable/74004/iii-nacional-torneo-de-campeones-argentina-grupo-f/"><span>Grupo F</span></a></li>
+                    <li><a target="_blank" href="https://www.enjore.com/es/teamtable/74005/iii-nacional-torneo-de-campeones-argentina-grupo-g/"><span>Grupo G</span></a></li>
                     <li><a target="_blank" href="http://www.enjore.com/es/calendar/30534/copa-de-oro/"><span>Copa de Oro</span></a></li>
                     <li><a target="_blank" href="http://www.enjore.com/es/calendar/30535/copa-de-plata/"><span>Copa de Plata</span></a></li>
                 </ul>
